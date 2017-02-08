@@ -27,8 +27,7 @@ let package = Package(
     name: "SlackKit",
     targets: [],
     dependencies: [
-        .Package(url: "https://github.com/Zewo/WebSocketClient", majorVersion: 0, minor: 14),
-        .Package(url: "https://github.com/Zewo/HTTPClient.git", majorVersion: 0, minor: 14)
+        .Package(url: "https://github.com/Zewo/WebSocketClient", majorVersion: 0, minor: 14)
     ],
     exclude: ["Examples"]
 )
